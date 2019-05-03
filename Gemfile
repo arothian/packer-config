@@ -6,7 +6,7 @@ group :development, :test do
   gem 'rake', '~> 10.5'
   gem 'rspec', '~> 3.4'
   gem 'rspec-mocks', '~> 3.4'
-  gem 'rubocop', '~> 0.49'
+  gem 'rubocop', '~> 0.68'
   gem 'rubygems-tasks', '~> 0.2'
 end
 

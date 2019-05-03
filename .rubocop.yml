@@ -146,9 +146,6 @@ Style/MultilineIfThen:
 Style/MultilineTernaryOperator:
   Enabled: false
 
-Style/MultilineTernaryOperator:
-  Enabled: false
-
 Style/NilComparison:
   Enabled: false
 
@@ -194,7 +191,7 @@ Style/WhileUntilDo:
 Style/WhileUntilModifier:
   Enabled: false
 
-Layout/IndentHash:
+Layout/IndentFirstHashElement:
   Enabled: false
 
 # As of rubocop 0.21, it thinks kwargs are useless assignments

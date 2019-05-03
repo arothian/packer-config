@@ -42,6 +42,7 @@ module Packer
       if self.builders.empty?
         raise DataValidationError.new("At least one builder is required")
       end
+
       self.builders.each(&:validate)
       self.provisioners.each(&:validate)
       self.postprocessors.each(&:validate)
@@ -156,6 +157,7 @@ module Packer
       unless self.variables.key? name
         raise UndefinedVariableError.new("No variable named #{name} has been defined -- did you forget to call add_variable?")
       end
+
       "{{user `#{name}`}}"
     end
 
