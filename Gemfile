@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 group :development, :test do
-  gem 'bundler', '~> 1.11'
+  gem 'bundler', '~> 2.0'
   gem 'fakefs', '~> 0.7'
   gem 'rake', '~> 10.5'
   gem 'rspec', '~> 3.4'
